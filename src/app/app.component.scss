@@ -1,0 +1,10 @@
+.form-control.ng-invalid.ng-touched,
+.form-control.ng-invalid.ng-dirty{
+    border: 2px solid red;
+}
+
+form.ng-submitted .form-control.ng-invalid,
+form.ng-submitted input[type='checkbox'].ng-invalid,
+form.ng-submitted input[type='radio'].ng-invalid{
+    border: 2px solid red
+}
